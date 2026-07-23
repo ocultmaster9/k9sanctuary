@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="K9 Sanctuary">
+  <defs>
+    <linearGradient id="rg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2994A"/>
+      <stop offset="1" stop-color="#E8743B"/>
+    </linearGradient>
+  </defs>
+  <!-- spinning outer ring -->
+  <circle cx="32" cy="32" r="29" fill="none" stroke="url(#rg)" stroke-width="4" stroke-linecap="round" stroke-dasharray="74 150" opacity="0.9">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 32 32" to="360 32 32" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- static paw badge -->
+  <circle cx="32" cy="32" r="22" fill="url(#rg)"/>
+  <g fill="#fff">
+    <ellipse cx="24" cy="27" rx="4" ry="5.4"/>
+    <ellipse cx="33.2" cy="24" rx="4" ry="5.6"/>
+    <ellipse cx="41.5" cy="28" rx="3.8" ry="5.1"/>
+    <path d="M24 35c3.5-4.6 10.5-4.6 14 0 3 3.8 1.4 8.7-3.6 9.4-2.35.36-4.9.36-7.2 0C22.2 43.7 20.6 38.8 24 35z"/>
+  </g>
+</svg>

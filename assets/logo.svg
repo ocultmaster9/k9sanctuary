@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="K9 Sanctuary">
+  <defs>
+    <linearGradient id="pawg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2994A"/>
+      <stop offset="1" stop-color="#E8743B"/>
+    </linearGradient>
+  </defs>
+  <!-- paw mark -->
+  <g transform="translate(6,8)">
+    <circle cx="28" cy="30" r="28" fill="url(#pawg)"/>
+    <g fill="#fff">
+      <ellipse cx="20" cy="24" rx="4.6" ry="6"/>
+      <ellipse cx="30.5" cy="21" rx="4.6" ry="6.4"/>
+      <ellipse cx="40" cy="26" rx="4.4" ry="5.8"/>
+      <path d="M20 33c4-5 12-5 16 0 3.4 4.2 1.6 9.8-4 10.6-2.6.4-5.4.4-8 0-5.6-.8-7.4-6.4-4-10.6z"/>
+    </g>
+  </g>
+  <!-- wordmark -->
+  <text x="74" y="34" font-family="'Quicksand',system-ui,sans-serif" font-weight="700" font-size="26" fill="currentColor" letter-spacing="0.5">K9<tspan fill="#E8743B">·</tspan>SANCTUARY</text>
+  <text x="75" y="52" font-family="'Quicksand',system-ui,sans-serif" font-weight="600" font-size="10.5" fill="currentColor" opacity="0.62" letter-spacing="2.4">EVERY DOG DESERVES A HOME</text>
+</svg>
